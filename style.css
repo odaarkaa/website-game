@@ -4,26 +4,26 @@ body {
     margin: 0;
     padding: 0;
     color: #333333;
-    background-color: #F4F4F9;
+    background-color: #FFF8E1; /* Легкий жовтий фон */
 }
 
 header {
-    background-color: #F0F4F8;
+    background-color: #FFF3C1; /* Світло-жовтий фон */
     padding: 25px;
     text-align: center;
-    border-bottom: 3px solid #A9B7C6;
+    border-bottom: 3px solid #FBC02D; /* Жовтий колір для розділення */
 }
 
 section {
     padding: 25px;
     margin: 25px;
-    background: linear-gradient(135deg, rgba(240, 244, 248, 0.3), rgba(169, 183, 198, 0.3));
-    border: 3px solid #A9B7C6;
+    background: linear-gradient(135deg, rgba(255, 243, 193, 0.3), rgba(251, 192, 45, 0.3)); /* Жовтий градієнт */
+    border: 3px solid #FBC02D; /* Жовта обводка */
     border-radius: 15px;
 }
 
 h1, h2, h3 {
-    color: #2F4F4F;
+    color: #F57F17; /* Темно-жовтий для заголовків */
     text-transform: uppercase;
     letter-spacing: 3px;
 }
@@ -36,38 +36,38 @@ ul {
 li {
     margin-bottom: 12px;
     padding: 12px;
-    border: 2px solid #A9B7C6;
-    background-color: rgba(169, 183, 198, 0.15);
+    border: 2px solid #FBC02D; /* Жовта обводка */
+    background-color: rgba(251, 192, 45, 0.15); /* Легкий жовтий фон для елементів списку */
     border-radius: 8px;
 }
 
 form {
     display: flex;
     flex-direction: column;
-    background-color: #F0F4F8;
+    background-color: #FFF3C1; /* Світло-жовтий фон */
     padding: 20px;
-    border: 3px solid #A9B7C6;
+    border: 3px solid #FBC02D; /* Жовта обводка */
     border-radius: 15px;
 }
 
 label {
     margin-bottom: 8px;
-    color: #2F4F4F;
+    color: #F57F17; /* Темно-жовтий колір для тексту мітки */
 }
 
 input, textarea {
     margin-bottom: 12px;
     padding: 12px;
-    border: 2px solid #A9B7C6;
+    border: 2px solid #FBC02D; /* Жовта обводка */
     border-radius: 8px;
     background-color: #FFFFFF;
-    color: #2F4F4F;
+    color: #F57F17; /* Темно-жовтий текст */
     font-family: 'Arial', sans-serif;
 }
 
 button {
     padding: 12px;
-    background-color: #3CB371;
+    background-color: #FFEB3B; /* Яскраво-жовта кнопка */
     color: #FFFFFF;
     border: none;
     font-family: 'Arial', sans-serif;
@@ -79,23 +79,23 @@ button {
 }
 
 button:hover {
-    background-color: #4B8B3B;
+    background-color: #FBC02D; /* Жовта кнопка при наведенні */
     transform: scale(1.05);
     box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.15);
 }
 
 footer {
-    background-color: #F0F4F8;
+    background-color: #FFF3C1; /* Світло-жовтий фон */
     text-align: center;
     padding: 12px;
     width: 100%;
     bottom: 0;
-    border-top: 3px solid #A9B7C6;
+    border-top: 3px solid #FBC02D; /* Жовта обводка для футера */
     border-radius: 15px 15px 0 0;
 }
 
 a {
-    color: #3CB371;
+    color: #F57F17; /* Темно-жовтий колір для посилань */
     text-decoration: none;
 }
 
