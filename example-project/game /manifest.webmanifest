@@ -1,7 +1,7 @@
 {
-  "name": "Rabid Touch",
-  "short_name": "Rabid Touch",
-  "id": "com.example.gamename",
+  "name": "Catch the falling objects",
+  "short_name": "Catch the falling objects",
+  "id": "xxx.xxx.gameCatchthefallingobjects",
   "description": "",
   "orientation": "portrait",
   "start_url": "./index.html",
